@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mayra 1000</title>
+</head>
+<body>
+  <h1 id="1000">Mayra 1000</h1>
+  <div id="links"></div>
+  <script>
+    const url = location.origin + location.pathname + "#1000";
+    document.getElementById("links").innerHTML =
+      `<p><a href="${url}">Mayra 1000</a></p>`.repeat(1000);
+  </script>
+</body>
+</html>
